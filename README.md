@@ -1,42 +1,46 @@
-# Desafio: Machine Learning Practitioner - BairesDev
+# Desafio: Machine Learning Practitioner - BairesDev 🎯🐱🐶
 
-Este repositório é dedicado à resolução do desafio do curso **Machine Learning Practitioner** promovido pela BairesDev em parceria com a plataforma [DIO (Digital Innovation One)](https://www.dio.me/).
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Descrição do Desafio
+Este repositório é dedicado à resolução do desafio do curso **Machine Learning Practitioner** promovido pela BairesDev em parceria com a plataforma [DIO (Digital Innovation One)](https://www.dio.me/). 🚀📚✨
 
-O objetivo do desafio é desenvolver um modelo de classificação de imagens utilizando a técnica de **Transfer Learning** aplicado ao conjunto de dados [*Kaggle Cats and Dogs Dataset*](https://www.microsoft.com/en-us/download/details.aspx?id=54765). Este dataset é composto por imagens de cães e gatos, ideal para problemas de classificação binária.
+## Descrição do Desafio 🧠📊💡
 
-Para a solução deste problema, foi solicitada a reprodução de um projeto de referência, adaptando-o ao dataset mencionado e aplicando boas práticas de aprendizado de máquina.
+O objetivo do desafio é desenvolver um modelo de classificação de imagens utilizando a técnica de **Transfer Learning** aplicado ao conjunto de dados [*Kaggle Cats and Dogs Dataset*](https://www.microsoft.com/en-us/download/details.aspx?id=54765). Este dataset é composto por imagens de cães e gatos, ideal para problemas de classificação binária. 🐕🐈📷
 
-## Dataset
+Para a solução deste problema, foi solicitada a reprodução de um projeto de referência, adaptando-o ao dataset mencionado e aplicando boas práticas de aprendizado de máquina. 🛠️📝🎯
+
+## Dataset 📁🔍📊
 
 - **Fonte**: [Microsoft Kaggle Cats and Dogs Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54765)
-- **Descrição**: O dataset contém milhares de imagens divididas em duas classes: cães e gatos. Ele é amplamente utilizado para treinar e avaliar algoritmos de visão computacional.
+- **Descrição**: O dataset contém milhares de imagens divididas em duas classes: cães e gatos. Ele é amplamente utilizado para treinar e avaliar algoritmos de visão computacional. 🐾📷🧪
 
-## Abordagem
+## Abordagem 🏗️🔬🤖
 
 1. **Carregamento do Dataset**:
    - As imagens foram processadas e preparadas para treinar o modelo.
-   - Realizada a normalização e o redimensionamento para adequar as imagens à arquitetura utilizada.
+   - Realizada a normalização e o redimensionamento para adequar as imagens à arquitetura utilizada. 🖼️🧹📐
 
 2. **Modelo**:
    - Aplicamos a técnica de **Transfer Learning**, utilizando uma arquitetura pré-treinada como base (por exemplo, *VGG16*, *ResNet*, ou similar).
-   - Ajustamos as camadas finais para o problema de classificação binária (cães vs gatos).
+   - Ajustamos as camadas finais para o problema de classificação binária (cães vs gatos). 🛠️⚙️🤖
 
 3. **Treinamento**:
    - Utilizamos *data augmentation* para aumentar a variabilidade do dataset.
-   - Configuramos o otimizador e a função de custo adequados para o problema.
+   - Configuramos o otimizador e a função de custo adequados para o problema. 🏋️‍♂️📈🎛️
 
 4. **Avaliação**:
-   - O modelo foi avaliado em um conjunto de validação e testado para medir a precisão.
+   - O modelo foi avaliado em um conjunto de validação e testado para medir a precisão. 📊✅🔍
 
-## Estrutura do Repositório
+## Estrutura do Repositório 📂🗂️📌
 
 - `notebook/`: Contém o arquivo principal com o código e os experimentos realizados.
 - `data/`: Diretório reservado para o dataset (deve ser baixado separadamente).
-- `results/`: Contém os resultados gerados durante o treinamento e avaliação do modelo.
+- `results/`: Contém os resultados gerados durante o treinamento e avaliação do modelo. 🗃️📈📋
 
-## Como Utilizar
+## Como Utilizar 🤔💻🔧
 
 1. Clone o repositório:
 
@@ -55,9 +59,9 @@ Para a solução deste problema, foi solicitada a reprodução de um projeto de 
 
 4. Execute o notebook:
 
-   Utilize um ambiente como Jupyter Notebook ou Google Colab para rodar o arquivo principal localizado em `notebook/transfer_learning.ipynb`.
+   Utilize um ambiente como Jupyter Notebook ou Google Colab para rodar o arquivo principal localizado em `notebook/transfer_learning.ipynb`. 📓⚙️🔍
 
-## Requisitos
+## Requisitos 🛠️📋💻
 
 - Python 3.8+
 - Bibliotecas:
@@ -66,16 +70,16 @@ Para a solução deste problema, foi solicitada a reprodução de um projeto de 
   - Matplotlib
   - scikit-learn
 
-## Resultados
+## Resultados 📊📈🎉
 
 - **Acurácia Final**: Relatório detalhado dos resultados está documentado no notebook.
-- Visualização das previsões corretas e incorretas foi realizada para validação do modelo.
+- Visualização das previsões corretas e incorretas foi realizada para validação do modelo. ✅❌📸
 
-## Licença
+## Licença 📜⚖️✨
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes. 📝🔓📂
 
 ---
 
-Projeto criado para fins educacionais como parte do curso **Machine Learning Practitioner** da BairesDev.
+Projeto criado para fins educacionais como parte do curso **Machine Learning Practitioner** da BairesDev. 📚🎓🌟
 
