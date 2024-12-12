@@ -2,6 +2,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![NumPy](https://img.shields.io/badge/NumPy-1.23-lightgreen.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5-red.svg)
+![Scikit](https://img.shields.io/badge/Scikit-1.0-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 Este repositório é dedicado à resolução do desafio do curso **Machine Learning Practitioner** promovido pela BairesDev em parceria com a plataforma [DIO (Digital Innovation One)](https://www.dio.me/). 🚀📚✨
